@@ -91,6 +91,24 @@ Default priorities:
 - X acknowledgement or lack of it
 - GitHub/code evidence when product claims depend on code
 
+## CA-only expansion rule
+
+If the user sends only a contract address, do not stop at price action.
+
+Expand the address outward until you either find first-party project evidence or can say that it is missing.
+
+Minimum CA-only path:
+
+1. Resolve exact token identity on explorer and DEX routes.
+2. Check launcher/factory provenance if visible.
+3. Check whether metadata, launcher pages, explorer labels, or linked pages expose a website/docs/social handle.
+4. Search exact address plus exact ticker/name for first-party site, docs, X, Telegram, GitHub, or launch thread.
+5. If a site/product is found, inspect that product directly and let the product verdict override token hype.
+6. If no first-party web footprint is found, say that clearly instead of padding with market stats.
+
+When contract-only input expands into a real website/product, the report should analyze that website/product, not just the chart.
+When contract-only input does not expand into a real website/product, frame it as a launcher token / ghost launch / pure microcap flow as appropriate.
+
 ## When to give credit
 
 Upgrade the read when real proof exists:

@@ -82,6 +82,44 @@ Expected behavior:
 - if the strongest finding is product-side, lead with that
 - if the strongest finding is provenance or lack of endorsement, lead with that
 
+## Contract-address-only scan
+
+User:
+
+```text
+xray 0x...
+```
+
+Expected behavior:
+
+- do not stop at chart data or one DEX route
+- use the CA to resolve explorer identity, launcher/factory provenance, and exact pair routes
+- search exact address plus exact ticker/name for first-party site, docs, X, Telegram, and GitHub
+- if the CA expands into a real site/product, inspect that site/product directly
+- if the CA does not expand into a real acknowledged web footprint, say that clearly
+
+Good shape:
+
+```text
+Verdict: Watch
+Headline: GHOST LAUNCH / PONS MICROCAP
+Confidence: Medium
+
+What it is:
+<1-2 lines on what the contract appears to be once explorer, DEX, and launcher evidence are combined>
+
+Best finding:
+- The CA resolves to a live launcher token, but no meaningful first-party website, docs, or social acknowledgement were found.
+
+Evidence:
+- Live pair and current liquidity/volume found on exact DEX routes.
+- Explorer shows verified contract identity and launcher/factory provenance.
+- No first-party website, docs, X, Telegram, or GitHub found after exact address and ticker/name checks.
+
+My read:
+This looks like real live token plumbing but no product or acknowledged narrative behind it. Treat it as microcap flow, not product-backed legitimacy.
+```
+
 ## Reply style
 
 User replies to a link preview or prior message:

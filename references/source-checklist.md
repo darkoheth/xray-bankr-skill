@@ -18,6 +18,26 @@ Build a compact source map before writing prose. Settle the main narrative first
 6. X/social acknowledgement or contradiction.
 7. GitHub/code proof when product claims depend on code.
 
+## Contract-address-only inputs
+
+If the input is only a CA, force this expansion order before writing the report:
+
+1. Explorer token page and contract metadata.
+2. Factory / deployer / launcher provenance.
+3. Dexscreener and GeckoTerminal exact token and pair routes.
+4. Any metadata-linked website, docs, X, Telegram, or GitHub.
+5. Exact web/X searches for the address plus exact ticker/name.
+6. If a real site/product is found, inspect that product directly.
+
+Do not stop at:
+
+- ticker
+- price
+- volume
+- one DEX pair
+
+The job is to discover whether the CA maps to a real acknowledged product, a launcher narrative, or nothing.
+
 ## Questions to settle
 
 - Are the displayed funds real or virtual accounting?
@@ -25,6 +45,7 @@ Build a compact source map before writing prose. Settle the main narrative first
 - Are the outputs coming from real APIs or mock/client-side randomness?
 - Are contracts, settlement, payout proofs, or registry links actually present?
 - Is the token official, acknowledged, fee-claimed, or still just community/speculation?
+- Does the contract expand into a real first-party website/product when searched directly?
 - Does the repo/product evidence materially support the narrative?
 
 ## Required source-map outputs
