@@ -106,6 +106,23 @@ Minimum CA-only path:
 5. If a site/product is found, inspect that product directly and let the product verdict override token hype.
 6. If no first-party web footprint is found, say that clearly instead of padding with market stats.
 
+If normal discovery fails but the token name/symbol is distinctive, try a narrow exact-match domain probe before concluding there is no web footprint.
+
+Allowed fallback examples:
+
+- exact symbol/name + `.xyz`
+- exact symbol/name + `.fun`
+- exact symbol/name + `.app`
+- exact symbol/name + `.io`
+
+Use this fallback only when:
+
+- the symbol/name is unusual enough to avoid broad false matches
+- the discovered site is live
+- the site content is thematically aligned with the token/project
+
+If a guessed domain is found, label it clearly as discovered by exact-match domain probe rather than metadata-linked proof.
+
 When contract-only input expands into a real website/product, the report should analyze that website/product, not just the chart.
 When contract-only input does not expand into a real website/product, frame it as a launcher token / ghost launch / pure microcap flow as appropriate.
 

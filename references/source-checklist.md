@@ -28,6 +28,7 @@ If the input is only a CA, force this expansion order before writing the report:
 4. Any metadata-linked website, docs, X, Telegram, or GitHub.
 5. Exact web/X searches for the address plus exact ticker/name.
 6. If a real site/product is found, inspect that product directly.
+7. If still nothing and the symbol/name is distinctive, probe a few exact-match crypto-friendly domains (`.xyz`, `.fun`, `.app`, `.io`) and inspect only live aligned results.
 
 Do not stop at:
 
@@ -37,6 +38,7 @@ Do not stop at:
 - one DEX pair
 
 The job is to discover whether the CA maps to a real acknowledged product, a launcher narrative, or nothing.
+If the domain was found only by exact-match probing rather than a linked source, say that explicitly in the source trace.
 
 ## Questions to settle
 
