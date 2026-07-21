@@ -77,6 +77,20 @@ If a source is missing, write a blocker directly:
 - `not found after checking ...`
 - `unavailable: ...`
 
+## Social-to-site expansion rule
+
+If X/social discovery finds a plausible project account, do not stop at the handle.
+
+Inspect:
+
+1. profile URL / website field
+2. bio text for domains or invite links
+3. pinned tweet
+4. recent tweets for first-party links
+
+If the site is discoverable from the coin's X account, treat that as first-party linkage and inspect the site directly.
+If the account exists but does not link anything useful, say that explicitly rather than treating the handle alone as sufficient proof.
+
 ## What to check first
 
 Use `references/source-checklist.md`.

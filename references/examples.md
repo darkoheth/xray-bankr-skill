@@ -120,6 +120,26 @@ My read:
 This looks like real live token plumbing but no product or acknowledged narrative behind it. Treat it as microcap flow, not product-backed legitimacy.
 ```
 
+## Social-linked site discovery
+
+User:
+
+```text
+xray 0x...
+```
+
+Expected behavior:
+
+- if a plausible X account is found, inspect the account instead of stopping at the handle
+- read the profile URL, bio links, pinned tweet, and recent posts for the first-party site
+- if the website is discoverable from the X account, inspect the website and let it affect the verdict
+
+Good note in source trace:
+
+```text
+Source trace: explorer -> launcher provenance -> exact X account -> profile URL/pinned tweet -> website inspection
+```
+
 ## Reply style
 
 User replies to a link preview or prior message:

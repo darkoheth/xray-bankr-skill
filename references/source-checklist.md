@@ -30,6 +30,18 @@ If the input is only a CA, force this expansion order before writing the report:
 6. If a real site/product is found, inspect that product directly.
 7. If still nothing and the symbol/name is distinctive, probe a few exact-match crypto-friendly domains (`.xyz`, `.fun`, `.app`, `.io`) and inspect only live aligned results.
 
+## If an X account is found
+
+Before deciding the project has no web footprint, inspect the X account for:
+
+1. website/profile URL
+2. bio-linked domains or invites
+3. pinned tweet links
+4. recent post links
+
+If the site is found through the project's X account, treat that as first-party source linkage.
+If the X account has no useful outbound links, note that directly in the source trace.
+
 Do not stop at:
 
 - ticker
